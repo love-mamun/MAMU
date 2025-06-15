@@ -20,7 +20,7 @@ module.exports.onLoad = async () => {
 
     const path = resolve(__dirname, "cache", "pornlist.txt");
 
-    if (!existsSync(path)) return await global.utils.downloadFile("https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt", path);
+    if (!existsSync(path)) return await global.utils.downloadFile("https://raw.githubusercontent.com/blocklistproject/Lists", path);
     else return;
 }
 
