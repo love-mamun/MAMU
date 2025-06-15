@@ -1,11 +1,11 @@
 module.exports.config = {
-    name: "slot",
+    name: "777",
     version: "1.0.1",
     hasPermssion: 0,
-    credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
-    description: "fair play",
-    commandCategory: "game-sp",
-    usages: "[number coin required]",
+    credits: "Mirai Team",
+    description: "Đánh bạc bằng hình thức hoa quả",
+    commandCategory: "Trò Chơi",
+    usages: "[số coin cần đặt]",
     cooldowns: 5,
 };
 
@@ -14,15 +14,15 @@ module.exports.languages = {
         "missingInput": "[ SLOT ] Số tiền đặt cược không được để trống hoặc là số âm",
         "moneyBetNotEnough": "[ SLOT ] Số tiền bạn đặt lớn hơn hoặc bằng số dư của bạn!",
         "limitBet": "[ SLOT ] Số coin đặt không được dưới 50$!",
-        "returnWin": "🎰 %1 | %2 | %3 🎰\nBạn đã thắng với %4$",
-        "returnLose": "🎰 %1 | %2 | %3 🎰\nBạn đã thua và mất %4$"
+        "returnWin": "╭────────╮\nㅤ🎰 %1 | %2 | %3 🎰ㅤ💰💰💰\n╰────────╯\n𝐁𝐚̣𝐧 𝐯𝐮̛̀𝐚 𝐭𝐡𝐚̆́𝐧𝐠 𝐯𝐚̀ 𝐧𝐡𝐚̣̂𝐧 %4$ 💸",
+        "returnLose": "╭────────╮\nㅤ🎰 %1 | %2 | %3 🎰ㅤ💰💰💰\n╰────────╯\n𝐁𝐚̣𝐧 𝐯𝐮̛̀𝐚 𝐭𝐡𝐮𝐚 𝐯𝐚̀ 𝐛𝐚𝐲 %4$ 💸"
     },
     "en": {
         "missingInput": "[ SLOT ] The bet money must not be blank or a negative number",
         "moneyBetNotEnough": "[ SLOT ] The money you betted is bigger than your balance!",
         "limitBet": "[ SLOT ] Your bet is too low, the minimum is 50$",
-        "returnWin": "🎰 %1 | %2 | %3 🎰\nYou won with %4$",
-        "returnLose": "🎰 %1 | %2 | %3 🎰\nYou lost and loss %4$"
+        "returnWin": "╭───╮\n🎰 %1 | %2 | %3 🎰\n╰───╯\nYou won with %4$",
+        "returnLose": "╭───╮\n🎰 %1 | %2 | %3 🎰\n╰───╯\nYou lost and loss %4$"
     }
 }
 

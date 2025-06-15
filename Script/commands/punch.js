@@ -2,7 +2,7 @@ module.exports.config = {
   name: "punch",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+  credits: "𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩",
   description: "punch the friend tag",
   commandCategory: "general",
   usages: "punch [Tag someone you want to punch]",
@@ -26,7 +26,7 @@ module.exports.run = async ({ api, event, args }) => {
  let callback = function () {
             api.setMessageReaction("✅", event.messageID, (err) => {}, true);
         api.sendMessage({
-						        body: "Ora ora ora! " + tag,
+						        body: "ye le mukka khaa " + tag,
                                           mentions: [{
           tag: tag,
           id: Object.keys(event.mentions)[0]
